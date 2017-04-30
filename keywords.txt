@@ -1,0 +1,24 @@
+GameCubeController	KEYWORD1
+initialize	KEYWORD2
+update	KEYWORD2
+zero	KEYWORD2
+buttonStart	KEYWORD2
+ButtonA	KEYWORD2
+ButtonB	KEYWORD2
+ButtonX	KEYWORD2
+ButtonY	KEYWORD2
+ButtonZ	KEYWORD2
+ButtonL	KEYWORD2
+ButtonR	KEYWORD2
+ButtonLeft	KEYWORD2
+ButtonRight	KEYWORD2
+ButtonUp	KEYWORD2
+ButtonDown	KEYWORD2
+joystickX	KEYWORD2
+joystickY	KEYWORD2
+CstickX	KEYWORD2
+CstickY	KEYWORD2
+left	KEYWORD2
+right	KEYWORD2
+setRumble	KEYWORD2
+
