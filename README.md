@@ -1,12 +1,12 @@
 # Arduino-GameCubeControllerInterface
 A library for interfacing a Nintendo GameCube Controller to the Arduino.
 
-## Intended Usage
+### Intended Usage
 This project is intended to allow an Arduino project to be controlled using
 a single GameCube controller. It was created to allow control of an RC robot
 with a controller that I had on hand.
 
-# Acknowledgements
+## Acknowledgements
 
 This code is derived from work by Andrew Brown:
 https://github.com/brownan/Gamecube-N64-Controller
@@ -17,13 +17,13 @@ see the above link for a more thorough explanation of how the code works.
 
 I also found this link helpful: http://www.int03.co.uk/crema/hardware/gamecube/gc-control.html.
 
-# Electrical Connections
+## Electrical Connections
 I used an LM317 adjustable regulator and 12V wall wart to create a 3.3 volt rail for the controller.
 Connect controller data line to arduino pin D2. This is hardcoded and cannot be changed.
 Connect 1k resistor between data line and controller +3.3v supply.
 +5V to the controller is not required unless you want to use the rumble feature (at least on my controller).
 
-# Usage and architecture
+## Usage and architecture
 
 See examples/gamecube_serial/gamecube_serial.ino for an example program that
 prints out the controller data every second.
